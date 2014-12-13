@@ -23,11 +23,11 @@ public class PudeliHari extends Applet {
         int r = Math.min(x0, y0);
 
         // Ta"idame tausta
-        g.setColor(Color.white);
+        g.setColor(Color.black);
         g.fillRect(0, 0, w, h);
 
         // Joonistame
-        g.setColor(Color.black);
+        g.setColor(Color.white);
 
         for (t = -Math.PI; t < Math.PI; t = t + Math.PI / 16) {
             x = (int) (r * Math.cos(t) + x0);
